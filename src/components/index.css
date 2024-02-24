@@ -4,9 +4,9 @@ body, html { font-family: sans-serif; height: 100%; }
 * { box-sizing: border-box; overflow: hidden; margin: 0; padding: 0; }
 
 :root {
-  --cor-button: #f0f0f0;
-  --border-button: solid 1px rgb(194, 194, 194);
-  --border-button-op: solid 1px rgb(0, 105, 209);
+  --cor-button: #e8b8f6;
+  --border-button: solid 1px rgb(222, 88, 246);
+  --border-button-op: solid 1px rgb(222, 88, 246);
 }
 
 /* ------------- background ------------- */
@@ -19,7 +19,7 @@ body, html { font-family: sans-serif; height: 100%; }
   justify-content: center; 
   text-align: center; 
   color: #fff; 
-  background: linear-gradient(to left, #373b44, #4286f4);
+  background: linear-gradient(to left, #373b44, #bc86ee);
 }
 
 /* ------------- titulo ------------- */
@@ -66,7 +66,7 @@ h1 { font-size: 3rem; padding: 0 6px 20px; font-family: 'Pacifico', cursive; col
 
 
 .button.op { 
-  background-color: dodgerblue; 
+  background-color: rgb(165, 30, 255); 
   color: white;   
   border-right: var(--border-button-op);
   border-bottom: var(--border-button-op);
